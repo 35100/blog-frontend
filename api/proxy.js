@@ -5,13 +5,9 @@ module.exports = (req, res) => {
 
   // 代理目标地址
   // 这里使用 backend 主要用于区分 vercel serverless 的 api 路径
-  if (req.url.indexOf('uploads') > -1) {
-    target = 'http://101.34.110.154'
-  }
-
   // 创建代理对象并转发请求
   createProxyMiddleware({
-    target,
+    target: 'http://101.34.110.154',
     changeOrigin: true,
     pathRewrite: {
       // 通过路径重写，去除请求路径中的 `/backend`
