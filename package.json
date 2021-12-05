@@ -15,5 +15,8 @@
     "bootstrap": "^5.0.2",
     "gridsome": "^0.7.0",
     "markdown-it": "^12.1.0"
+  },
+  "devDependencies": {
+    "http-proxy-middleware": "^2.0.1"
   }
 }
