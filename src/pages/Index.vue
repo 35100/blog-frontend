@@ -3,9 +3,9 @@
     <!-- Page Header -->
     <header class="masthead" 
     :style="{
-      backgroundImage: `url(${ 'http://localhost:1337' + $page.general.cover.url})`
+      backgroundImage: `url(${ 'http://101.34.110.154:1337' + $page.general.cover.url})`
     }">
-      <div class="overlay">{{$page}}</div>
+      <div class="overlay"></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
