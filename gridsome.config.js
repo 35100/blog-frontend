@@ -11,7 +11,7 @@ module.exports = {
     {
       use: '@gridsome/source-strapi',
       options: {
-        apiURL:  process.env.GRIDSOME_API_URL, // 接口地址
+        apiURL: 'http://101.34.110.154:1337', // 接口地址
         queryLimit: 1000, // Defaults to 100
         contentTypes: ['post', 'tag', 'general'], // 对应的数据类型，接口名称
         // singleTypes: ['general'],
